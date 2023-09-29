@@ -1,0 +1,4 @@
+We can make both "birthday" and "age" uppercase,
+but unlike "birthday", "age" is equal to what function
+will return, so I think that we can do both, but I
+won't do "age", because it is less of the constant

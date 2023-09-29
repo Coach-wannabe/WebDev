@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background: #0303039c;
+    color: #bebebe;
+    padding: 0.5rem;
+}
+
+header h1 {
+    margin-left: 5%;
+}
+
+form {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    border-radius: 4px;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none; 
+    border: #aaa solid 0.5px;
+    border-radius: 4px;
+}
+
+form button {
+    color: #010101;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #696969;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+
+/*JavaScript added classes*/
+.todo {
+    padding: 10px;
+    margin: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    border: #aaa 0.5px solid;
+    border-radius: 4px;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.check-box {
+    cursor: pointer;
+}
+
+.trash-btn {
+    background: white;
+    border: solid 0.5px #aaa;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+    margin: 5px;
+    border-left: #aaa solid 0.5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    opacity: 0;
+}

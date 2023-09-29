@@ -1,0 +1,5 @@
+1.
+The validator found errors or warnings in the HTML.
+The validator assumed the document was something other than HTML5.
+
+2. Document checking completed. No errors or warnings to show.

@@ -1,0 +1,8 @@
+1)A
+2)B
+3)
+.info { }  ->  <h1 class="info">The Exciting Story</h1>
+#info { }  ->  <p id="info">It's a great story.</p>
+#main { }  ->  <h2 id="main">The Story</h2>
+.main { }  ->  <p class="main">Really, trust me, it's good.</p>
+4)D

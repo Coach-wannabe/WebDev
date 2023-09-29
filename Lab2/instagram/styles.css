@@ -1,0 +1,304 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*this is the reset stylesheet, to remove browsers default styling*/
+
+
+body {
+    background-color: #fafafa;
+}
+
+.left-side {
+    width: 25%;
+    margin-left: 22%;
+    padding-top: 30px;
+}
+
+.right-side {
+    font-family: sans-serif;
+    float: right;
+    width: 24%;
+    padding: 10px 0;
+    margin-top: -600px;
+    margin-right: 24%;
+}
+
+.login-box {
+    background: #ffffff;
+    border: 1px solid rgba(219, 219, 219, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.login-box input {
+    width: 78%;
+    height: 30px;
+    font-size: 11px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #fafafa;
+    border: 1px solid rgba(112, 112, 112, 0.5);
+    border-radius: 4px;
+}
+
+.login-box button {
+    color: white;
+    background-color: #52b4f5;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* .or-divider {
+    margin-top: 5px;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: 550;
+} */
+
+h2 {
+    margin-top: 5px;
+    width: 80%; 
+    text-align: center; 
+    border-bottom: 0.5px solid rgba(160, 160, 160, 0.5); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+    background:#fff; 
+    padding:0 15px; 
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.fb-login {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fb-login a {
+    text-decoration: none;
+    color: #385185;
+}
+
+.fb-login span {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.face-logo {
+    width: 20px;
+}
+
+.forgot-pass {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.small-box {
+    background: #ffffff;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 25px;
+    border: 1px solid rgba(112, 112, 112, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-box a {
+    text-decoration: none;
+    color: #299deb;
+    font-weight: 500;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    word-spacing: 1px;
+    color: rgb(37, 36, 36);
+}
+
+.get-the-app span {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.get-the-app img {
+    width: 130px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.footer-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    margin: 10px 0 5px 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.last-box {
+    margin-top: 10px;
+    color: #bbbbbb;
+}
+
+select {
+    color: #bbbbbb;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    background: #fafafa;
+    word-spacing: -100px;
+    margin-right: 20px;
+}
+
+.fb-login a:hover {
+    color: red;
+}
+
+.fb-login a img:hover {
+    display: none;
+}

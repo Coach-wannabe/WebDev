@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*this is the reset stylesheet, to remove browsers default styling*/
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.logo {
+    cursor: pointer;
+    padding: 16px 6px 16px 10px;
+    width: 150px;
+}
+
+nav {
+    margin-left: -7%;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li a {
+    color: #262626;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    border-bottom: solid 3px #262626;
+}
+
+.search-bar {
+    display: inline-table;
+}
+
+.search {
+    margin-top: -20px;
+}
+
+.search-bar:hover {
+    border-bottom: solid 3px #262626;
+}
+
+.search-glass {
+    width: 20px;
+}
+
+.log-in {
+    display: inline-block;
+}
+
+.log-in span {
+    text-decoration: none;
+    float: left;
+    color: #262626;
+}
+
+.log-in:hover {
+    border-bottom: solid 3px #262626;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+.big-container {
+    color: white;
+    position: relative;
+}
+
+main img {
+    width: 100%;
+}
+
+.big-container h1 {
+    margin-top: -300px;
+    margin-left: 5%;
+    position: absolute;
+    font-weight: 600;
+}
+
+.big-container p {
+    font-size: 16px;
+    margin-top: -200px;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.button {
+    color: black;
+    margin-top: -150px;
+    margin-left: 5%;
+    position: absolute;
+    background: white;
+    padding: 10px 20px;
+}
+
+.button span:hover {
+    border-bottom: solid 3px #262626;
+}
+
+.bottom-half {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bottom-half a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.bottom-half h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bottom-half p {
+    font-size: 15px;
+}
+
+.bottom-half span {
+    color: #0067b8;
+    font-size: 15px;
+}
+
+.bottom-half span:hover {
+    border-bottom: solid 3px#0067b8;
+}
+
+.photo {
+    width: 22%;
+    display: inline-table;
+    margin: 1%;
+}
+
+.photo img {
+    margin-bottom: 15px;
+}
+
+.photo h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.photo p {
+    margin-bottom: 10px;
+}
+
+.photo span {
+    font-weight: 400;
+    margin-right: 5px;
+}
+

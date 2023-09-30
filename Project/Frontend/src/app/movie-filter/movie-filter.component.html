@@ -1,0 +1,3 @@
+<div class="sidenav">
+  <a *ngFor="let genre of genres" [routerLink]="['/genres', genre.id]"> {{genre.name}} </a>
+</div>
